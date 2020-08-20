@@ -1,7 +1,18 @@
-body{
-  background : url("./images/cold.jpg") no-repeat center center fixed ;
-  background-image: 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body{
+  /*background : url("./images/cold.jpg") no-repeat center center fixed ;*/
 
+  background-color: darkblue;
+}
+
+.app {
+  background-image: url('./assets/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
 

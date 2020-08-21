@@ -9,15 +9,14 @@ const API = {
 function App() {
   return (
     <div className="app">
-     <main>
-     <div className="search-box">
-     <input type ="searchbox"/>
-     </div>
-     </main> 
+      <main>
+        <div className="search-box">
+          <input type ="searchbox"/>
+        </div>
+      </main> 
     </div>
   );
 }
 
 export default App;
 
-//test push

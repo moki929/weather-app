@@ -9,11 +9,9 @@ const API = {
 function App() {
   return (
     <div className="app">
-      <main>
         <div className="search-box">
-          <input type ="searchbox"/>
-        </div>
-      </main> 
+          <input type ="text"/>
+        </div> 
     </div>
   );
 }

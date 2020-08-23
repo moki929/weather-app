@@ -17,6 +17,10 @@ function App() {
             placeholder="Where to?"
           />
         </div>
+        <div className="location-box">
+          <div className="location"></div>
+          <div className="date"></div>
+        </div>
       </main> 
     </div>
   );

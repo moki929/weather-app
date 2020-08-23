@@ -23,5 +23,8 @@
 }
 
 .search-bar {
-  width: 90%
+  display: block;
+  width: 90%;
+  padding: 1em;
+  margin: auto;
 }

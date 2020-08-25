@@ -19,7 +19,7 @@ function App() {
           />
         </div>
         <div className="location-box">
-          <div className="location"></div>
+          <div className="location">Mumbai</div>
           <div className="date"></div>
         </div>
       </main> 

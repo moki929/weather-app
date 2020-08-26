@@ -1,5 +1,6 @@
 import React from 'react';
 import apiKey from './config.js';
+import 'tachyons';
 
 
 const API = {
@@ -19,8 +20,8 @@ function App() {
           />
         </div>
         <div className="location-box">
-          <div className="location">Mumbai</div>
-          <div className="date"></div>
+          <div className="location tc">Mumbai , India</div> 
+          <div className="date location tc">Sunday 15th AUG</div>
         </div>
       </main> 
     </div>

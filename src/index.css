@@ -45,7 +45,7 @@ main {
 }
 
 .location-box {
-  margin: 40px auto;
+  margin-top: 40px;
   padding: auto;
 }
 
@@ -60,4 +60,11 @@ main {
   margin-top: 20px;
   font-style: italic;
   font-size: 25px;
+}
+
+.temp{
+  color:rgba(255,255,255,1);
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 23px;
 }

@@ -22,6 +22,7 @@ function App() {
         <div className="location-box">
           <div className="location tc">Mumbai , India</div> 
           <div className="date location tc">Sunday 15th AUG</div>
+          <div className="tc temp">36 C</div>
         </div>
       </main> 
     </div>

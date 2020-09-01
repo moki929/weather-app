@@ -44,27 +44,30 @@ main {
   transition: 
 }
 
-.location-box {
+.location {
   margin-top: 40px;
   padding: auto;
-}
-
-.location {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 35px;
   color:rgba(255,255,255,1);
+  text-shadow: 3px 3px rgba(50, 50, 50, 0.7);
 }
 
 .date{
   margin-top: 20px;
   font-style: italic;
   font-size: 25px;
+  text-shadow: 3px 3px rgba(50, 50, 50, 0.7);
 }
 
-.temp{
+.temp-box,
+.weather {
+  position: relative;
+  
   color:rgba(255,255,255,1);
   font-weight: bold;
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 23px;
+  text-shadow: 3px 3px rgba(50, 50, 50, 0.5);
 }

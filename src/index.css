@@ -5,7 +5,7 @@
 }
 
 body {
-
+  color: yellow;
 }
 
 .app{
@@ -29,11 +29,13 @@ main {
   width: 100%;
   top: 25px;
   background-color: rgba(0, 0, 0, 0); /*temporary color to see how to edit*/
+  color: yellow;
 }
 
 .search-bar {
   border: none;
   background-color: rgba(255, 255, 255, 0.5);
+  color: yellow;
   display: block;
   width: 95%;
   padding: 1em;
@@ -45,6 +47,7 @@ main {
 }
 
 .location {
+  text-align: center;
   margin-top: 40px;
   padding: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -55,6 +58,7 @@ main {
 }
 
 .date{
+  text-align: center;
   margin-top: 20px;
   font-style: italic;
   font-size: 25px;
@@ -63,6 +67,7 @@ main {
 
 .temp-box,
 .weather {
+  text-align: center;
   position: relative;
   color:rgba(255,255,255,1);
   font-weight: 900;
@@ -76,11 +81,12 @@ main {
   font-weight: 6000;
 }
 .temp{
-   background-color: rgba(255,255,255,.5);
-   font-size: 45px;
-   border-radius: 10px;
-   max-width:240px;
-   margin: auto;
-   line-height: 100px;
-   text-shadow: rgba(50,50,70,.5);
+  background-color: rgba(255,255,255,.5);
+  font-size: 45px;
+  border-radius: 10px;
+  max-width:200px;
+  margin: auto;
+  line-height: 100px;
+  text-shadow: rgba(50,50,70,.5);
 }
+

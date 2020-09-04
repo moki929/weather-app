@@ -65,11 +65,22 @@ main {
 .weather {
   position: relative;
   color:rgba(255,255,255,1);
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 20px;
   font-size: 23px;
   text-shadow: 2px 1px rgba(50, 50, 50, 0.5);
 }
 .weather{
   margin-top: -1px;
+  font-size: 50px;
+  font-weight: 6000;
+}
+.temp{
+   background-color: rgba(255,255,255,.5);
+   font-size: 45px;
+   border-radius: 10px;
+   max-width:240px;
+   margin: auto;
+   line-height: 100px;
+   text-shadow: rgba(50,50,70,.5);
 }

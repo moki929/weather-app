@@ -27,7 +27,7 @@ function App() {
   const dateBuilder = (d) => {
     let months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
     let days = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
-    let day = days[d.getDate()];
+    let day = days[d.getDay()];
     let date = d.getDate();
     let month = months[d.getMonth()];
     let year = d.getFullYear();

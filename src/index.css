@@ -29,13 +29,14 @@ main {
   width: 100%;
   top: 25px;
   background-color: rgba(0, 0, 0, 0); /*temporary color to see how to edit*/
-  color: yellow;
+  color: rgb(22, 0, 146);
 }
 
 .search-bar {
   border: none;
   background-color: rgba(255, 255, 255, 0.5);
-  color: yellow;
+  color: rgb(22, 0, 146);
+  font-weight: 900;
   display: block;
   width: 95%;
   padding: 1em;

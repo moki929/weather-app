@@ -1,0 +1,8 @@
+
+
+1pm-2pm Atlanta time for MoKi
+10:30pm-11:30 India time for Ram
+
+destructuring js
+
+https://openweathermap.org/price
